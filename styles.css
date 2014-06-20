@@ -129,7 +129,7 @@ table.columns td.sub-columns,
 table.column td.sub-columns,
 table.columns td.sub-column,
 table.column td.sub-column {
-  padding-right: 10px;
+  padding-right: 0px;
 }
 
 td.sub-column, td.sub-columns {
@@ -294,7 +294,8 @@ h2.center,
 h3.center,
 h4.center,
 h5.center,
-h6.center {
+h6.center,
+p.center {
   text-align: center;
 }
 
@@ -457,7 +458,7 @@ table.tiny-button td a,
 table.small-button td a,
 table.medium-button td a,
 table.large-button td a {
-  font-weight: bold;
+/*  font-weight: bold;*/
   text-decoration: none;
   font-family: Helvetica, Arial, sans-serif;
   color: #ffffff;
@@ -519,43 +520,43 @@ table.large-button td a:visited {
   color: #ffffff !important;
 }
 
-table.secondary td {
-  background: #e9e9e9;
-  border-color: #d0d0d0;
-  color: #555;
+table.wanna td {
+  background: #27b99a;
+  border-color: #166857;
+  color: #fff;
 }
 
-table.secondary td a {
-  color: #555;
+table.wanna td a {
+  color: #fff;
 }
 
-table.secondary:hover td {
-  background: #d0d0d0 !important;
-  color: #555;
+table.wanna:hover td {
+  background: #2ac9a7 !important;
+  color: #fff;
 }
 
-table.secondary:hover td a,
-table.secondary td a:visited,
-table.secondary:active td a {
-  color: #555 !important;
+table.wanna:hover td a,
+table.wanna td a:visited,
+table.wanna:active td a {
+  color: #fff !important;
 }
 
-table.success td {
-  background: #5da423;
-  border-color: #457a1a;
+table.seenit td {
+  background: #3cace6;
+  border-color: #146b99;
 }
 
-table.success:hover td {
-  background: #457a1a !important;
+table.seenit:hover td {
+  background: #2bb1f7 !important;
 }
 
-table.alert td {
-  background: #c60f13;
-  border-color: #970b0e;
+table.dont td {
+  background: #E64C3C;
+  border-color: #992014;
 }
 
-table.alert:hover td {
-  background: #970b0e !important;
+table.dont:hover td {
+  background: #f73e2b !important;
 }
 
 table.radius td {
@@ -695,11 +696,15 @@ body, .body {
 
 table.container {
   background: #FFF;
-  border: 15px solid #FFF;
+  border-radius: 3px 3px 0 0;
 }
 
 a {
   color: #27B99A;
+}
+
+a:hover, a:visited {
+  color: #1e8f77 !important;
 }
 
 .header {
@@ -724,5 +729,26 @@ a {
 }
 
 
+.footer p {
+  font-size: 12px;
+}
 
+img.user-icon {
+  border-radius: 50%;
+  padding: 3px;
+  background-color: #FFF;
+  width: 70px !important;
+  max-width: 70px;
+  margin-right: 5px;
+  border: 1px #09AE8B solid;
+  margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .header {
+    height: 50px;
+    margin-bottom: 15px;
+  }
+}
 
