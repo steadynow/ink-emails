@@ -520,43 +520,41 @@ table.large-button td a:visited {
   color: #ffffff !important;
 }
 
-table.wanna td {
+table.button.wanna td {
   background: #27b99a;
   border-color: #166857;
-  color: #fff;
+  margin: 5px;
 }
 
-table.wanna td a {
-  color: #fff;
-}
-
-table.wanna:hover td {
+table.button.wanna:hover td {
   background: #2ac9a7 !important;
+  cursor: pointer;
+}
+
+table.button.wanna td a {
   color: #fff;
 }
 
-table.wanna:hover td a,
-table.wanna td a:visited,
-table.wanna:active td a {
-  color: #fff !important;
-}
-
-table.seenit td {
+table.button.seen td {
   background: #3cace6;
   border-color: #146b99;
+  margin: 5px;
 }
 
-table.seenit:hover td {
+table.button.seen:hover td {
   background: #2bb1f7 !important;
+  cursor: pointer;
 }
 
-table.dont td {
+table.button.dont td {
   background: #E64C3C;
   border-color: #992014;
+  margin: 5px;
 }
 
-table.dont:hover td {
+table.button.dont:hover td {
   background: #f73e2b !important;
+  cursor: pointer;
 }
 
 table.radius td {
@@ -711,6 +709,7 @@ a:hover, a:visited {
   background-color: #333;
   background: url('images/header-bg.gif');
   background-repeat: repeat-x;
+  background-size: 5px 40px;
 }
 
 .panel {
@@ -725,7 +724,7 @@ a:hover, a:visited {
 }
 
 .row.footer {
-  background-color: #fff;
+  background-color: #D5D5D5;
 }
 
 
@@ -737,18 +736,12 @@ img.user-icon {
   border-radius: 50%;
   padding: 3px;
   background-color: #FFF;
-  width: 70px !important;
+  width: 68px !important;
   max-width: 70px;
   margin-right: 5px;
-  border: 1px #09AE8B solid;
+  border: 2px #09AE8B solid;
   margin-top: 10px;
 }
 
 
-@media only screen and (max-width: 600px) {
-  .header {
-    height: 50px;
-    margin-bottom: 15px;
-  }
-}
 
