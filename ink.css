@@ -740,7 +740,7 @@ p:last-child {
   background-color: #D5D5D5;
 }
 
-.row.footer p {
+.row.footer span {
   font-size: 12px;
   margin-bottom: 0;
 }
@@ -781,4 +781,8 @@ img.user-icon {
 .dont {
   color: #E64C3C !important;
   background: #E64C3C !important;
+}
+
+img.play-button {
+  max-width: 30px !important;
 }
