@@ -436,8 +436,6 @@ table.large-button td {
   width: auto !important;
   text-align: center;
   background: #09AE8B;
-  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.75);
-  -moz-box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.75);
   box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,0.75);
   color: #ffffff;
   padding: 8px 0;
