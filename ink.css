@@ -582,7 +582,7 @@ body.outlook p {
   display: inline !important;
 }
 
-/*  Media Queries */
+/* Media Queries */
 
 @media only screen and (max-width: 600px) {
 
@@ -779,8 +779,4 @@ img.user-icon {
 .dont {
   color: #E64C3C !important;
   background: #E64C3C !important;
-}
-
-img.play-button {
-  max-width: 30px !important;
 }
