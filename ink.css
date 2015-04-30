@@ -710,12 +710,9 @@ p:last-child {
 }
 
 .header {
-  background: -moz-linear-gradient(top,  #444444 0%, #444444 80%, #eae9e5 80%, #9fd8ef 80%, #eae9e5 80%, #eae9e5 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444444), color-stop(80%,#444444), color-stop(80%,#eae9e5), color-stop(80%,#9fd8ef), color-stop(80%,#eae9e5), color-stop(100%,#eae9e5)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #444444 0%,#444444 80%,#eae9e5 80%,#9fd8ef 80%,#eae9e5 80%,#eae9e5 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #444444 0%,#444444 80%,#eae9e5 80%,#9fd8ef 80%,#eae9e5 80%,#eae9e5 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #444444 0%,#444444 80%,#eae9e5 80%,#9fd8ef 80%,#eae9e5 80%,#eae9e5 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #444444 0%,#444444 80%,#eae9e5 80%,#9fd8ef 80%,#eae9e5 80%,#eae9e5 100%); /* W3C */
+  background: url('images/header-bg.gif');
+  background-repeat: repeat-x;
+  background-size: 5px 50px;
   margin-bottom: 5px;
 }
 
@@ -758,12 +755,10 @@ img.user-icon {
 }
 
 .user-center {
-  background: -moz-linear-gradient(top,  #ffffff 9%, #444444 9%, #444444 75%, #ffffff 75%, #ffffff 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(9%,#ffffff), color-stop(9%,#444444), color-stop(9%,#444444), color-stop(75%,#444444), color-stop(75%,#ffffff), color-stop(75%,#ffffff), color-stop(91%,#ffffff)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #ffffff 9%, #444444 9%, #444444 75%, #ffffff 75%, #ffffff 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #ffffff 9%, #444444 9%, #444444 75%, #ffffff 75%, #ffffff 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #ffffff 9%, #444444 9%, #444444 75%, #ffffff 75%, #ffffff 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #ffffff 9%, #444444 9%, #444444 75%, #ffffff 75%, #ffffff 100%); /* W3C */
+  background: url('images/header-bg.gif');
+  background-repeat: repeat-x;
+  background-size: 5px 50px;
+  background-position: center;
 }
 
 .user-center img {
@@ -784,8 +779,4 @@ img.user-icon {
 .dont {
   color: #E64C3C !important;
   background: #E64C3C !important;
-}
-
-.text-center {
-  text-align: center;
 }
